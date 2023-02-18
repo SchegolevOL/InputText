@@ -17,8 +17,8 @@ button.addEventListener("click", (event) => {
     ? text.style.setProperty("font-style", "italic")
     : text.style.setProperty("font-style", "normal");
 
-  var data = new FormData(form);
-  var output = "";
+  let data = new FormData(form);
+  let output = "";
   for (const entry of data) {
     output = entry[1];
   }
