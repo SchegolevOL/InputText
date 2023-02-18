@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="contener">
+        <div class="formatText">
+            <div>
+                <input type="checkbox" name="Bold" id="Bold">
+                <label for="">Bold</label>
+                <input type="checkbox" name="Underline" id="Underline">
+                <label for="">Underline</label>
+                <input type="checkbox" name="Italics" id="Italics">
+                <label for="">Italics</label>
+            </div>
+            <div>
+                <form>
+                    <input type="radio" id="Left" name="type" value="Left" checked>
+                    <label for="">Left</label>
+                    <input type="radio" id="Right" name="type" value="Right">
+                    <label for="">Right</label>
+                    <input type="radio" id="Justify" name="type" value="Justify">
+                    <label for="">Justify</label>
+                </form>
+            </div>
+
+        </div>
+
+        <div>
+            <textarea name="text" id="text" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button type="submit" id="buttonFormatText">Show Text</button>
+        </div>
+    </div>
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>
